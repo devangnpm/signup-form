@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
-
-
+@font-face {
+    font-family: 'NorseBold'; /* Choose a name for your font */
+    src: url('Norse-Bold.otf') format('opentype'), /* Path to your font file */
+}
 
 body {
     margin: 0;
@@ -14,8 +15,8 @@ body {
 
 .left-section {
     display: flex;
-    border: 2px solid red;
     height: 1000px;
+    width: 667px;
     margin-right: 1250px;
 
 }
@@ -24,17 +25,25 @@ body {
     display: flex;
     align-items: center;
     padding-left: 300px;
-    border: 2px solid greenyellow;
-    height: 120px;
-    width: 1000px;
+    height: 170px;
+    width: 400px;
     margin-left: -700px;
-    margin-top: 400px;
+    margin-top: 220px;
     background-color:rgba(0, 0, 0, 0.5);
 
 }
 
+.logo {
+    display: flex;
+    height: 165px;
+    margin-left: -310px;
+    margin-top: -5px;
+}
+
 h1 {
-    font-family: 'Skranji', sans-serif;
+    display: flex;
+    margin-left: 20px;
+    font-family: Norsebold;
     color: white;
-    font-size: 4rem;
+    font-size: 7em;
 }
