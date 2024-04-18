@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-section {
+    display: flex;
+    border: 2px solid red;
+    height: 1000px;
+    margin-right: 1250px;
+
+}
+
+.text-bg {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    border: 2px solid greenyellow;
+    height: 120px;
+    width: 1000px;
+    margin-left: -700px;
+    margin-top: 400px;
+    background-color:rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+    font-family: 'Skranji', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
