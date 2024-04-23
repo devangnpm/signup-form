@@ -22,18 +22,74 @@
         </div>
       </div>
       <div class="right-section">
-          <p>
-            This is a demo registration page! You know you need something like this in your life to help you realize your deepest dreams. 
-            <br>Sign up now to get started.
-            <br>
-            <br>
-            <br>
-            You know you want to.
-          </p>
+        <p>
+          This is a demo registration page! You know you need something like
+          this in your life to help you realize your deepest dreams.
+          <br />Sign up now to get started.
+          <br />
+          <br />
+          <br />
+          You know you want to.
+        </p>
+      </div>
+      <div class="form-container">
+        <form id="my-form">
+          <label for="firstname">
+            First Name
+            <input type="text" id="firstname" name="firstname" required="" />
+          </label>
+          <label for="lastname">
+            Last Name
+            <input type="text" id="lastname" name="lastname" required="" />
+          </label>
+          <label for="email">
+            Email
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required=""
+              autocomplete="off"
+            />
+          </label>
+          <label for="phonenumber">
+            Phone Number
+            <input
+              type="tel"
+              name="phonenumber"
+              id="phonenumber"
+              required=""
+              pattern="[0-9]{10}"
+            />
+          </label>
+          <label for="password">
+            Password
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required=""
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            />
+          </label>
+          <label for="confirm-password">
+            Confirm Password
+            <input
+              type="password"
+              id="passwordC"
+              name="passwordC"
+              required=""
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            />
+          </label>
+        </form>
+      </div>
+      <div>
+        <button type="submit" form="my-form">Create Account</button>
+        <div class="btn-text">  
+        <p>Already have an account? <a href=""> Log in </a></p>
         </div>
-        <div class="form-container">
       </div>
     </div>
   </body>
 </html>
-

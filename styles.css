@@ -15,10 +15,7 @@ body {
 
 .left-section {
     display: flex;
-    height: 1000px;
-    width: 667px;
-    margin-right: 1250px;
-
+    height: 950px;
 }
 
 .text-bg {
@@ -53,8 +50,8 @@ h1 {
     display: flex;
     width: auto;
     height: auto;
-    margin-top: -1050px;
-    margin-left: 667px;
+    margin-top: -1000px;
+    margin-left: 634px;
     background-color: #f9fafb;
     flex-wrap: wrap;
 }
@@ -64,7 +61,7 @@ p {
     margin-top: 70px;
     margin-left: 35px;
     font-family: monospace;
-    font-size: 23px;
+    font-size: 20px;
 
 }
 
@@ -75,8 +72,62 @@ br {
 
 .form-container {
     display: flex;
-    border: 2px solid red;
-    height: 400px;
+    height: 340px;
     width: auto;
-    margin-left: 667px;
+    margin-left: 634px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
 }
+
+#my-form {
+    display: flex;
+    width: 60vw;
+    gap: 1rem;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: 'NorseBold';
+    flex-flow: row wrap;
+    color: black;
+}
+
+label {
+    font-size: 1.7rem;
+}
+
+input {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+
+button {
+  padding: .8rem 1.3rem;
+  font-size: 1.3rem;
+  background-color: black;
+  border: 2.5px solid whitesmoke;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: -1px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+  margin-left: 675px;
+  margin-top: 50px;
+  animation: rainbow 3s linear infinite;
+  font-size: 25px;
+}
+
+.btn-text {
+    display: flex;
+    margin-left: 646px;
+    margin-top: -28px;
+}
+
+
+@keyframes rainbow {
+    0% { color: red; }
+    16% { color: orange; }
+    32% { color: yellow; }
+    48% { color: green; }
+    64% { color: blue; }
+    80% { color: indigo; }
+    100% { color: violet; }
+  }
